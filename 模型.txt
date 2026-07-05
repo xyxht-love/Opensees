@@ -33,9 +33,9 @@ proc countLines {filename} {
 # ====================================================
 set dt 0.01
 
-set fileX "1-MH1.txt"
-set fileY "1-MH2.txt"
-set fileZ "1-combine.txt"
+set fileX "MH1.txt"
+set fileY "MH2.txt"
+set fileZ "combine.txt"
 
 # 检查文件是否存在
 if {![file exists $fileX]} { puts "错误：文件 $fileX 不存在！" ; exit 1 }
